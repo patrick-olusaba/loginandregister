@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0;
+  background-color: red;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.user-inputs {
+  border-radius: 18px;
+  padding: 10px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  font-size: 20px;
+  /* width:100%; */
+}
+
+.inputs-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.inputs {
+  width: 100%;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.icon-img {
+  position: absolute;
+  right: 20px;
+  width: 18px;
+  height: 18px;
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  border: 1px;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 18px;
+  background-color: #9e2db4;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: #b396bb;
+}
+
+.remember-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*policies*/
+
+.policy-section {
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.policy-section input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.policy-section span {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.policy-section a {
+  color: purple;
+}
+
+.policy-section a:hover {
+  text-decoration: underline;
+}
